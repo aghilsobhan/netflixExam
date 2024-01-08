@@ -2,7 +2,7 @@ import Layout from "../layout/Layout";
 import Banner from "../componnents/home/Banner"
 import PopularMovies from "../componnents/home/PopularMovies"
 import Promose from "../componnents/home/Promose"
-import TopRate from "../componnents/home/TopRate"
+import TopRated from "../componnents/home/TopRated"
 
 
 
@@ -13,7 +13,7 @@ function HomeScreen() {
         <Banner/>
         <PopularMovies/>
         <Promose/>
-        <TopRate/>
+        <TopRated/>
       </div>
     </Layout>
   );

@@ -4,7 +4,7 @@ import React from "react";
 function Layout({ children }) {
   return (
     <>
-      <div className="">
+      <div className="bg-main">
         <Navbar />
         {children}
         <Footer />
