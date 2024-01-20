@@ -1,6 +1,6 @@
 import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Movies } from "../../Data/MovieData";
+import { SlideMovies } from "../../Data/MovieData";
 import FlexMovieItem from "../FlexMovieItem";
 import { Link } from "react-router-dom";
 import { FaHeart } from "react-icons/fa";
@@ -17,7 +17,7 @@ function Banner() {
         autoplay={{ delay: 4000, disableOnInteraction: false }}
         className="w-full xl:h-96 bg-dry lg:h-64 h-48"
       >
-        {Movies.slice(0, 6).map((movie, index) => (
+        {SlideMovies.slice(0, 5).map((movie, index) => (
           <SwiperSlide key={index} className="relative rounded overflow">
             <img
               src={`/images/${movie.image}`}

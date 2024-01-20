@@ -20,13 +20,13 @@ function Promose() {
             <div className="flex-colo bg-black text-subMain px-6 py-3 rounded font-bold">
               HD 4k
             </div>
-            <div className="flex-rows gap-2 bg-black text-subMain px-6 py-3 rounded font-bold">
+            <div className="flex items-center gap-4  bg-black text-subMain px-6 py-3 rounded font-bold">
               <FiUser />2k
             </div>
           </div>
         </div>
         <div>
-            <img src="/images/mobile.png" alt="mobile" />
+            <img src="/images/mobail.png" alt="mobile" className="w-full object-contain" />
         </div>
       </div>
     </div>
