@@ -14,17 +14,17 @@ function ContactUs(props) {
     },
     {
       id:2,
-      title:"Email Us",
+      title:"Call us",
       info:"lInteractively grow backend ideas for cros-platform models.",
       icon:FaMicrophone,
-      contact:'info@zputemt.com'
+      contact:'+215545859'
     },
     {
       id:3,
       title:"Location",
       info:"lInteractively grow backend ideas for cros-platform models.",
       icon:FaSitemap,
-      contact:'info@zputemt.com'
+      contact:'isfahan/tehran/mashhad'
     }
   ]
   return  (  
@@ -39,7 +39,7 @@ function ContactUs(props) {
         <item.icon/>
         
       </span>
-      <h5 className="text-xl font-semibold mb-2">{item.title}</h5>
+      <h5 className="text-xl font-semibold mb-2 text-text" >{item.title}</h5>
       <p className="mb-0 text-sm text-text leading-7">
         <a href={`mailto:${item.contact}`} className="text-blue-600 ">{item.contact}</a>
       {item.info}

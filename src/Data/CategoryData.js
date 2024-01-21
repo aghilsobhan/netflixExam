@@ -1,0 +1,26 @@
+export const CategoryData=[
+    {
+        id:11,
+        title:'Western',
+    },
+    {
+        id:12,
+        title:'Historical',
+    },
+    {
+        id:13,
+        title:'Science',
+    },
+    {
+        id:14,
+        title:'Mystery',
+    },
+    {
+        id:11,
+        title:'Derama',
+    },
+    {
+        id:11,
+        title:'War',
+    },
+]
