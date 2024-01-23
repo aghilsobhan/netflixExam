@@ -3,7 +3,7 @@ import { FaHeart } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 function Movie({ movie }) {
-  console.log(movie)
+
   return (
     <div className="border border-border p-1 hover:scale-95 transitions relative rounded">
       <Link to={`/movie/${movie?.name} `} className="w-full">

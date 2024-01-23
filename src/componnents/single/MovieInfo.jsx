@@ -4,7 +4,6 @@ import { FaPlay, FaShareAlt } from "react-icons/fa";
 import FlexMovieItem from "../FlexMovieItem";
 import {FiLogIn} from 'react-icons/fi'
 function MovieInfo({ movie }) {
-  console.log(movie);
   return (
     <div className="w-full xl:h-screen relative text-white">
       <img
