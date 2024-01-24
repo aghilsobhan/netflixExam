@@ -243,7 +243,7 @@ export const UserData=[
         desc:'lorem ipsum color sit amet,concedtour descriprtion ',
         titleImage:'33.jpg',
         image:'us5.jpg',
-        category:'Adventure',
+        category:'drama',
         language:'korean',
         year:'2000',
         time:'11hr',
